@@ -65,6 +65,7 @@ check_pass(){
 
 
 setup(){
+    xdg-open https://www.youtube.com/@MrIdealhat
     banner
     depend
     echo
