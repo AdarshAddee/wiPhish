@@ -43,10 +43,32 @@ git clone https://github.com/AdarshAddee/wiPhish.git
 ```
 
 # Install Windows
->  You can install <b>wiPhish</b> via downloading wiPhish zip file and you can unzip that zip file that file.
+>  You can install <b>wiPhish</b> via downloading wiPhish zip file and you can unzip that zip file that file. Make sure you have downloaded <b><a href="https://www.php.net">php</a></b> in your device.
 
 # Execute wiPhish
-> These are 
+> These are some commands or methods which can be use to execute <b>wiPhish</b>.
+
+## Linux
+```
+cd wiPhish
+```
+
+```
+chmod +x wiphish
+```
+
+```
+./wiphish
+```
+
+> Open New session and start php server in your device. We will see how can we start php server in our device.
+
+## Windows
+> Unzip that downloaded zip folder at your desired directory, visit that directory and open cmd or powershell and type following commands. 
+
+```
+php -S localhost:8080
+```
 
 
 
