@@ -64,13 +64,17 @@ chmod +x wiphish
 > Open New session and start php server in your device. We will see how can we start php server in our device.
 
 ## Windows
-> Unzip that downloaded zip folder at your desired directory, visit that directory and open cmd or powershell and type following commands. 
+> Unzip that downloaded zip folder at your desired directory, visit that directory and open cmd or powershell and type following commands.
+
+> Command to start <b><a href="https://www.php.net">php</a></b> server in your device.
 
 ```
 php -S localhost:8080
 ```
 
+### Hope you will use this tool for your learning and educational purpose. That's the purpose of this tool I made.
 
+# Dhanyawad 🙏🏻❤
 
 
 
