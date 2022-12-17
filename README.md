@@ -74,7 +74,7 @@ chmod +x wiphish
 php -S localhost:8080
 ```
 
-### Hope you will use this tool for your learning and educational purpose. That's the purpose of this tool I made.
+> <b>Hope you will use this tool for your learning and educational purpose. That's the purpose of this tool I made.</b>
 
 # Dhanyawad 🙏🏻❤
 
