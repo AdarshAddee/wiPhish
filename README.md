@@ -1,2 +1,2 @@
 # wiPhish
-A Phishing WiFi hacking tool for everyone.
+A WiFi hacking Phishing tool for everyone.
