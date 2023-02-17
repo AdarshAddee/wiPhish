@@ -61,7 +61,6 @@ chmod +x wiphish
 ./wiphish
 ```
 
-> Open New session and start php server in your device. We will see how can we start php server in our device.
 
 ## Windows
 > Unzip that downloaded zip folder at your desired directory, visit that directory and open cmd or powershell and type following commands.
