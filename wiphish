@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This tool is created by Adarsh Addee.
+# Use this tool only fpr educational purpose.
+
+# Note: This is my first Phishing Tool 😁.
+
+
 rd="\e[1;31m"
 gr="\e[1;32m"
 yl="\e[1;33m"
