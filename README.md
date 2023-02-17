@@ -66,7 +66,7 @@ chmod +x wiphish
 > Unzip that downloaded zip folder at your desired directory, visit that directory and open cmd or powershell and type following commands.
 
 
-# Final Step
+## Final Step
 > Command to start <b><a href="https://www.php.net">php</a></b> server in your device.
 
 ```
