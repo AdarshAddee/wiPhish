@@ -4,6 +4,12 @@
 # Disclaimer
 > Use this tool only for <b>Educational Purpose</b>. This tool is only and only for educational purpose. We're not responsible for any illegal activity done by you.
 
+# Tested On
+- Kali Linux
+- Mac
+- Windows
+- Termux
+
 # Install Kali Linux
 > Here the commands which can be used to install <b>wiPhish</b> in Kali Linux.
 
