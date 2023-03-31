@@ -69,14 +69,16 @@ chmod +x wiphish
 
 
 ## Windows
-> Unzip that downloaded zip folder at your desired destination and open your powerhsell in current directory and use following commands.
+> Unzip that downloaded zip folder at your desired destination and open your powerhsell and cmd in current directory and use following commands.
 
+### CMD
 ```
-main.bat
+.\main.bat
 ```
 
+### Powershell
 ```
-main.ps1
+.\main.ps1
 ```
 
 > <b>Hope you will use this tool for your learning and educational purpose. That's the purpose of this tool I made.</b>
