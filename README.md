@@ -69,7 +69,7 @@ chmod +x wiphish
 
 
 ## Windows
-> Unzip that downloaded zip folder at your desired destination and open your powerhsell and cmd in current directory and use following commands.
+> Unzip that downloaded zip folder at your desired destination. Open your Powerhsell and CMD in current directory and use following commands.
 
 ### CMD
 ```
