@@ -69,14 +69,14 @@ chmod +x wiphish
 
 
 ## Windows
-> Unzip that downloaded zip folder at your desired directory, visit that directory and open cmd or powershell and type following commands.
-
-
-## Final Step
-> Command to start <b><a href="https://www.php.net">php</a></b> server in your device.
+> Unzip that downloaded zip folder at your desired destination and open your powerhsell in current directory and use following commands.
 
 ```
-php -S localhost:8080
+main.bat
+```
+
+```
+main.ps1
 ```
 
 > <b>Hope you will use this tool for your learning and educational purpose. That's the purpose of this tool I made.</b>
